@@ -47,7 +47,10 @@ def CheckForWin(board):
 def PrintBoard(board):
     index = 0
     while index < 7:
-        print('|' + str(board[index]) + '|' + str(board[index+1]) + '|' + str(board[index+2] + '|'))
+        print('|' + str(board[index]) +
+              '|' + str(board[index+1]) +
+              '|' + str(board[index+2] +
+              '|'))
         index += 3
 
 board = ['-']*9
